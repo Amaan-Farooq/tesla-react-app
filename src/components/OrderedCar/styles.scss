@@ -1,0 +1,118 @@
+.ordered-car1{
+    display: flex;
+    justify-content: center;
+    margin: 50px 0px;
+}
+.tick{
+    height: 40px;
+    width: 40px;
+}
+.haha{
+    margin-right: 3px;
+}
+.ordered-car2{
+    display: flex;
+    justify-content: center;
+}
+.animal-image{
+    margin: 40px 0px;
+    text-align: center;
+}
+.animal{
+    height:300px ;
+    width: 300px;
+}
+.car-image-container{
+    text-align: center;
+}
+.ordered-car-title{
+    text-align: center;
+}
+.ordered-car-image {
+    height: 370px;
+    width: 550px;
+}
+// .ordered-car-details{
+//     display : flex;
+//     justify-content: center;
+//     margin: 8px 0px;
+//     font-weight: bolder;
+// }
+.ordered-car-details-container{
+    display: flex;
+    justify-content: center;
+}
+.ordered-details1{
+    margin-right: 40px;
+}
+.ordered-details2{
+    margin-right: 50px;
+}
+.ordered-details-item{
+    padding: 8px 0px;
+    font-weight: bolder;
+    font-size: 1.2rem;
+}
+.ordered-paint-button{
+    height: 35px;
+    width: 35px;
+    background-color: red;
+    border-radius: 100%;
+}
+.ordered-wheel{
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+}
+.ordered-interior{
+    height: 35px;
+    width: 35px;
+    background-color: rgb(160, 77, 9);
+    border-radius: 100%;
+}
+// .ordered-details1{
+//     margin-right: 100px ;
+// }
+.price-container{
+    margin: 70px 0px;
+}
+.price {
+    text-align: center;
+    font-weight: lighter;
+    background-color: #d6cfcf;
+    font-size: 1.2rem;
+    border-radius: 25px;
+    width: 150px;
+    margin: auto;
+    padding: 12px 24px;
+}
+.download-buttons{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.final-button1{
+    border-radius: 18px;
+    padding: 8px 40px;
+    background-color: rgb(19, 101, 223);
+    margin: 5px 8px;
+    color: white;
+    border: none;
+}
+.final-button2{
+    border-radius: 18px;
+    padding: 8px 40px;
+    background-color: rgb(53, 42, 42);
+    margin: 5px 8px;
+    color: white;
+    border: none;
+}
+.final-button1:hover{
+    cursor: pointer;
+    background-color: rgb(15, 86, 192);
+}
+.final-button2:hover{
+    cursor: pointer;
+    background-color: black;
+}

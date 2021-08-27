@@ -1,0 +1,176 @@
+.orders{
+    display: flex;
+}
+.order-title{
+    text-align: center;
+}
+.order-details{
+    padding: 4px 0px;
+    font-weight: bolder;
+}
+.order-list1{
+    display: flex;
+    justify-content: center;
+}
+.order-list2{
+    display: flex;
+    justify-content: center;
+}
+
+.order-list1-item1{
+    padding-top: 20px;
+}
+.order-list1-item2{
+    padding: 0px 90px;
+    padding-top: 20px;
+}
+.order-list1-item3{
+    padding-top: 20px;
+}
+
+.order-list2-item1 {
+    padding-top: 2px;
+    padding-right: 15px;
+}
+.order-list2-item2 {
+    padding-top: 2px;
+    padding-left: 46px;
+    padding-right: 108px;
+}
+.order-list2-item3{
+    padding-top: 2px;
+}
+.variants{
+    margin: 25px 0px;
+}
+.variant-button{
+    display: flex;
+    border: 2px solid black;
+    padding: 15px 70px;
+    border-radius: 25px;
+    margin: 10px 4px;
+}
+.variant-text1{
+    margin-right: 50px;
+}
+.variant-text2{
+    margin-left: 60px;
+}
+.paint-title{
+    text-align: center;
+}
+.paints{
+    display: flex;
+    justify-content: center;
+    margin: 4px 0px;
+}
+.paint-button1{
+    background-color: red;
+    border: 2px solid red;
+    border-radius: 100%;
+    height: 80px;
+    width: 80px;
+    margin: 0px 8px;
+}
+.paint-button2{
+    background-color: rgb(240, 228, 228);
+    border: 2px solid rgb(240, 228, 228);
+    border-radius: 100%;
+    height: 80px;
+    width: 80px;
+    margin: 0px 8px;
+}
+.paint-button3{
+    background-color: black;
+    border: 2px solid black;
+    border-radius: 100%;
+    height: 80px;
+    width: 80px;
+    margin: 0px 8px; 
+}
+
+.paint-button1:hover{
+    cursor: pointer;
+}
+.paint-button2:hover{
+    cursor: pointer;
+}
+.paint-button3:hover{
+    cursor: pointer;
+}
+.wheel-title{
+    text-align: center;
+    margin-top: 15px;
+}
+
+.wheels{
+    display: flex;
+    justify-content: center;
+    margin: 8px 0px;
+}
+.wheel-img{
+    height: 150px;
+    width: 150px;
+    border-radius: 100%;
+    margin: 0px 8px;
+}
+.interior-title{
+    text-align: center;
+    margin-top: 6px;
+}
+.interiors{
+    display: flex;
+    justify-content: center;
+    margin: 8px 0px;
+}
+.interior1{
+    background-color: rgb(240, 228, 228);
+    border-radius: 100%;
+    height: 80px;
+    width: 80px;
+    margin: 0px 8px;
+}
+.interior2{
+    background-color: rgb(146, 63, 7);
+    border-radius: 100%;
+    height: 80px;
+    width: 80px;
+    margin: 0px 8px;
+}
+.interior-about{
+    display: flex;
+    justify-content: center;
+}
+.interior-text{
+    padding: 0px 20px;
+}
+.addon{
+    text-align: center;
+    margin-top: 8px;
+}
+.addon-features{
+    font-weight: bolder;
+}
+.order-now{
+    text-align: center;
+    margin: 10px 0px;
+}
+.delivery{
+    text-align: center;
+    margin: 10px 0px;
+}
+.order-button{
+    text-align: center;
+}
+.orderCar{
+    background-color: rgb(19, 72, 245);
+    padding: 8px 70px;
+    border-radius: 25px;
+    font-size: 1.2rem;
+    border: none;
+}
+
+.orderCar:hover{
+    background-color: blue;
+   cursor: pointer;
+}

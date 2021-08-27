@@ -1,0 +1,80 @@
+.details-title{
+    text-align: center;
+    margin: 8% 0%;
+    font-size: 3rem;
+}
+
+.details-1{
+    height: 90%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.details-btn{
+    text-align: center;
+    margin-top: 28%;
+    padding-bottom: 30px;
+}
+
+.details-button{
+    color: white;
+    padding: 15px 70px;
+    border: 2px solid white;
+    background-color: transparent;
+    border-radius: 25px;
+    font-size: 16px;
+    font-size: 1.2rem;
+}
+
+.details-button:hover{
+    cursor: pointer;
+    background-color: black;
+}
+
+.details-2{
+    background-image: url("https://cleantechnica.com/files/2020/09/Tesla-Model-S-Plaid-Black.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 1000px;
+}
+
+.details2-title{
+    color: white;
+    text-align: center;
+    padding-top: 80px;
+}
+
+.details2-buttons{
+    text-align: center;
+    margin-top: 50px;
+}
+.details2-button{
+    color: white;
+    padding: 15px 70px;
+    border: 3px solid white;
+    background-color: transparent;
+    border-radius: 25px;
+    font-size: 16px;
+    margin: 0px 15px;
+}
+
+.details-list{
+    display: flex;
+    color: white;
+    justify-content: center;
+    padding: 100px 0px;
+    font-size: 1.2rem;
+    font-weight: bolder;
+}
+
+.details-list1{
+    margin-right: 40px;
+}
+
+.details-list2{
+    margin-left: 50px;
+}
+
+.detail-items{
+    padding: 8px 0px;
+}
