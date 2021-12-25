@@ -38,7 +38,7 @@ const car = useParams<params>();
     }
 
     var myimage = red?"https://stimg.cardekho.com/images/car-images/930x620/Tesla/Model-S/5252/1611841114159/221_Red-Multi-Coat_870e14.jpg?tr=w-898":white?"https://stimg.cardekho.com/images/car-images/930x620/Tesla/Model-S/5252/1611841114159/225_Pearl-White-Multi-Coat_bfc3c2.jpg?tr=w-898":"https://stimg.cardekho.com/images/car-images/930x620/Tesla/Model-S/5252/1611841114159/224_Solid-Black_141414.jpg?tr=w-898";
-
+    var color = red?"red":white?"white":"black";
     const getOrders = async () => {
         const response: any = await fetch(`http://localhost:8000/carsApp/cars/detail/${car.carid}`);
         const data = await response.json();
@@ -115,7 +115,7 @@ return(
                 <h2 className = "order-now">Order your {orders.name}</h2>
                 <h3 className = "delivery">Estimated Delivery : 6-8 Weeks</h3>
                 <div className="order-button">
-                <Link to = {link+`${orders.id}`}><button className = "orderCar">Order</button></Link>
+                <Link to = {link+`${orders.id}`+'/'+`${color}`}><button className = "orderCar">Order</button></Link>
                 </div>
                 </div>
             </div>

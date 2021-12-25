@@ -4,12 +4,13 @@ import animal from "./images/order.png";
 import "./styles.scss";
 interface params {
     carid: string;
+    color: string;
 }
 
 export function OrderedCar(){
     const [orders, SetOrders] = useState<any>([]);
     const car = useParams<params>();
-
+    const orderedImage = car.color==="red"?"https://stimg.cardekho.com/images/car-images/930x620/Tesla/Model-S/5252/1611841114159/221_Red-Multi-Coat_870e14.jpg?tr=w-898":car.color==="white"?"https://stimg.cardekho.com/images/car-images/930x620/Tesla/Model-S/5252/1611841114159/225_Pearl-White-Multi-Coat_bfc3c2.jpg?tr=w-898":"https://stimg.cardekho.com/images/car-images/930x620/Tesla/Model-S/5252/1611841114159/224_Solid-Black_141414.jpg?tr=w-898";
     const getOrders = async () => {
         const response: any = await fetch(`http://localhost:8000/carsApp/cars/detail/${car.carid}`);
         const data = await response.json();
@@ -37,7 +38,7 @@ export function OrderedCar(){
             </div>
             <h1 className = "ordered-car-title">{orders.name}</h1>
             <div className = "car-image-container">
-                <img className = "ordered-car-image"src="https://stimg.cardekho.com/images/car-images/930x620/Tesla/Model-S/5252/1611841114159/221_Red-Multi-Coat_870e14.jpg?tr=w-898" alt="" />
+                <img className = "ordered-car-image"src={orderedImage} alt="" />
             </div>
 
                <div className = "ordered-car-details-container">

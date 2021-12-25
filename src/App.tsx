@@ -29,7 +29,7 @@ function App() {
           <Route exact path="/orders/:carid">
             <Orders />
           </Route>
-          <Route exact path="/ordered-car/:carid">
+          <Route exact path="/ordered-car/:carid/:color">
             <OrderedCar />
           </Route>
       </Switch>    
